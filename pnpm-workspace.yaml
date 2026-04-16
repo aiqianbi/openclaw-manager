@@ -1,0 +1,6 @@
+packages:
+  - "renderer"
+  - "UI"
+
+allowBuilds:
+  electron: true

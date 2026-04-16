@@ -1,0 +1,8 @@
+node_modules
+.vscode
+UI
+*.log
+*.txt
+plan.md
+prd.md
+claude.md

@@ -1,0 +1,26 @@
+{
+  "name": "opeclaw-manager",
+  "version": "0.1.0",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "dev": "electron .",
+    "renderer:install": "pnpm install --dir renderer",
+    "renderer:dev": "pnpm --dir renderer dev",
+    "renderer:build": "pnpm --dir renderer build",
+    "dev:electron-react": "set OPENCLAW_UI_DEV=1&& electron .",
+    "dev:hot": "set OPENCLAW_HOT_RELOAD=1&& electron .",
+    "start": "electron .",
+    "start:onboarding": "set OPENCLAW_HOT_RELOAD=1&& set OPENCLAW_FORCE_ONBOARDING=1&& electron .",
+    "start:mock:node-missing": "set OPENCLAW_HOT_RELOAD=1&& set OPENCLAW_FORCE_ONBOARDING=1&& set OPENCLAW_MOCK_NODE_MISSING=1&& electron .",
+    "start:mock:openclaw-missing": "set OPENCLAW_HOT_RELOAD=1&& set OPENCLAW_FORCE_ONBOARDING=1&& set OPENCLAW_MOCK_OPENCLAW_MISSING=1&& electron .",
+    "start:mock:node-low": "set OPENCLAW_HOT_RELOAD=1&& set OPENCLAW_FORCE_ONBOARDING=1&& set OPENCLAW_MOCK_NODE_VERSION=v22.0.0&& electron ."
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "electron": "30.0.6"
+  }
+}
+
