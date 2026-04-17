@@ -10,6 +10,18 @@ The project is organized using a two-tier Electron structure:
 
 - `renderer/`: React + TypeScript + Zustand + Tailwind (shadcn style components)
 
+## Screenshot
+
+<p align="center">
+  <img src="assets/en/1.png" style="width: 100%; height: auto;">
+</p>
+<p align="center">
+  <img src="assets/en/2.png" style="width: 100%; height: auto;">
+</p>
+<p align="center">
+  <img src="assets/en/3.png" style="width: 100%; height: auto;">
+</p>
+
 ## Running
 
 1) Install dependencies
